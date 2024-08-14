@@ -18,6 +18,8 @@ alias gc="git commit -m"
 alias gb="git checkout"
 alias gB="git checkout -b"
 alias vim="nvim"
+alias tn="tmux new -s"
+alias ta="tmux a -t"
 
 # dev configs 
 export NVM_DIR="$HOME/.nvm"
