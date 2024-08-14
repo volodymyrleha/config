@@ -2,7 +2,8 @@
 background = "#0a010d"
 
 [window]
-opacity = 0.92
+blur = true
+opacity = 0.85
 
 [window.padding]
 x = 8
