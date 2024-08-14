@@ -5,6 +5,8 @@ require("mason-lspconfig").setup({
 		'eslint',
         'lua_ls',
         'gopls',
+        'pyright',
+        'clangd',
 	}
 })
 
@@ -32,6 +34,8 @@ require("lspconfig").tsserver.setup({})
 require("lspconfig").eslint.setup({})
 require("lspconfig").lua_ls.setup(lua_setting)
 require("lspconfig").gopls.setup({})
+require("lspconfig").pyright.setup({})
+require("lspconfig").clangd.setup({})
 
 lsp_zero.on_attach(function(_, bufnr)
   -- see :help lsp-zero-keybindings

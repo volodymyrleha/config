@@ -9,8 +9,6 @@
 !.config/alacritty/alacritty.yml
 !.config/nvim
 !.config/nvim/init.lua
-!.config/nvim/plugin
-!.config/nvim/plugin/packer_compiled.lua
 !.config/nvim/lua/
 !.config/nvim/lua/custom
 !.config/nvim/lua/custom/init.lua
