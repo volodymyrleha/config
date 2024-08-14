@@ -2,5 +2,5 @@
 !.gitignore
 !.zshrc
 !.tmux.conf
-!.config/alacritty/*
-!.config/nvim/*
+!.config/alacritty/
+!.config/nvim/
