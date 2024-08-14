@@ -1,2 +1,9 @@
+[colors.primary]
+background = "#0a010d"
+
 [window]
 opacity = 0.92
+
+[window.padding]
+x = 8
+y = 4
