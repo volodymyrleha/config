@@ -1,7 +1,7 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
 	ensure_installed = {
-		'tsserver',
+		'ts_ls',
 		'eslint',
         'lua_ls',
         'gopls',
@@ -30,7 +30,7 @@ local lua_setting = {
     }
 }
 
-require("lspconfig").tsserver.setup({})
+require("lspconfig").ts_ls.setup({})
 require("lspconfig").eslint.setup({})
 require("lspconfig").lua_ls.setup(lua_setting)
 require("lspconfig").gopls.setup({})
