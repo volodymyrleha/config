@@ -7,8 +7,5 @@ gitsigns.setup({
     },
 })
 
-
-vim.keymap.set('n', '<leader>gd', gitsigns.diffthis, {})
-vim.keymap.set('n', '<leader>gtd', gitsigns.toggle_deleted, {})
-vim.keymap.set('n', '<leader>gtl', gitsigns.toggle_current_line_blame, {})
+vim.keymap.set('n', '<leader>gb', gitsigns.toggle_current_line_blame, {})
 
